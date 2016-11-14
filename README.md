@@ -6,20 +6,20 @@ The project will compare plain, un-styled elements with CSS styled elements to i
 
 ## Functionality & MVP
 With CSS Visual Cues, user will be able to compare/contrast:
-[ ] Icon Hover Effects
-  [ ] Wobble
-  [ ] Rotate
-  [ ] Hang
-  [ ] Float
-  [ ] Grow
-  [ ] Push
-[ ] Button Effects (2x)
-  [ ] Pressed Effect
-  [ ] Hover Effect
-[ ] Transition Effects (2x)
-  [ ] Flip
-  [ ] Slide
-[ ] 3D Cube
+- [ ] Icon Hover Effects
+  - [ ] Wobble
+  -[ ] Rotate
+  -[ ] Hang
+  -[ ] Float
+  -[ ] Grow
+  -[ ] Push
+-[ ] Button Effects (2x)
+  -[ ] Pressed Effect
+  -[ ] Hover Effect
+-[ ] Transition Effects (2x)
+  -[ ] Flip
+  -[ ] Slide
+-[ ] 3D Cube
 
 ## Wireframes
 This will be a one-page web application. It contains nav links to different sections within the application itself as well as my own GitHub and LinkedIn accounts.
@@ -37,7 +37,7 @@ After more practical examples of CSS styling, I will also include a section on t
 
 ## Architecture and Technologies
 This project will be implemented with the following technologies:
-- 
+-
 ## Implementation Timeline
 
 ## Bonus Features
