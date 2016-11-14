@@ -39,6 +39,25 @@ After more practical examples of CSS styling, I will also include a section on t
 This project will be implemented with the following technologies:
 - HTML
 - CSS
+
 ## Implementation Timeline
+**Day 1**:
+  - Set up file system and GitHub Pages.
+  - Learn about CSS x-, y-, and z-planes as well as their interactions.
+  - Create basic web-page structure.
+  - Start on Icon Hover Effects.
+**Day 2**:
+  - Finish Icon Hover Effects.
+  - Create Button effects.
+  - Brush up on x-, y-, and z-planes.
+  - Start Transition Effects using brushed up knowledge.
+**Day 3**:
+  - Finish Transition Effects.
+  - Begin 3D Cube.
+**Day 4**:
+  - Dedicate entire day to 3D Cube.
 
 ## Bonus Features
+- Add code snippets.
+- Add 3D parallelogram.
+- Add rotations.
