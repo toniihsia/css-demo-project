@@ -37,7 +37,8 @@ After more practical examples of CSS styling, I will also include a section on t
 
 ## Architecture and Technologies
 This project will be implemented with the following technologies:
--
+- HTML
+- CSS
 ## Implementation Timeline
 
 ## Bonus Features
