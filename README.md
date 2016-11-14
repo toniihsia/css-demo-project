@@ -41,20 +41,23 @@ This project will be implemented with the following technologies:
 - CSS
 
 ## Implementation Timeline
-**Day 1**:
+**Day 1**: General set-up and learning of CSS. Begin working on icon hover effects.
   - Set up file system and GitHub Pages.
   - Learn about CSS x-, y-, and z-planes as well as their interactions.
   - Create basic web-page structure.
   - Start on Icon Hover Effects.
-**Day 2**:
+
+**Day 2**: Finish up icon hover effects, brush up on CSS knowledge, and continue onto button effects. Start on transition effects.
   - Finish Icon Hover Effects.
   - Create Button effects.
   - Brush up on x-, y-, and z-planes.
   - Start Transition Effects using brushed up knowledge.
-**Day 3**:
+
+**Day 3**: Finish up transition effects and begin 3D Cube.
   - Finish Transition Effects.
   - Begin 3D Cube.
-**Day 4**:
+
+**Day 4**: Finish up 3D Cube.
   - Dedicate entire day to 3D Cube.
 
 ## Bonus Features
