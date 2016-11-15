@@ -2,22 +2,22 @@
 ## Background
 Visual Cues emphasizes the importance of CSS styling for user interaction and experience.
 
-The project will compare plain, un-styled elements with CSS styled elements to illustrate how visual cues can greatly enhance the ergonomics of a web service. Use of side-by-side visual demonstrations as well as a brief text descriptions of the effects each styled element has on a user.
+The project will compare plain, un-styled elements with CSS styled elements to illustrate how visual cues can greatly enhance the ergonomics of a web service. The use of side-by-side visual demonstrations as well as a brief text descriptions of the effects each styled element has on a user will be the main feature of this application.
 
 ## Functionality & MVP
 With CSS Visual Cues, user will be able to compare/contrast:
-- [ ] Icon Hover Effects
-  - [ ] Wobble
-  - [ ] Rotate
-  - [ ] Hang
-  - [ ] Float
-  - [ ] Grow
-  - [ ] Push
+- [x] Icon Hover Effects
+  - [x] Wobble
+  - [x] Rotate
+  - [X] Hang
+  - [x] Float
+  - [x] Grow
+  - [x] Push
 - [ ] Button Effects (2x)
   - [ ] Pressed Effect
   - [ ] Hover Effect
 - [ ] Transition Effects (2x)
-  - [ ] Flip
+  - [x] Flip
   - [ ] Slide
 - [ ] 3D Cube
 

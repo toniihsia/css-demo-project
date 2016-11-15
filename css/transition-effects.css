@@ -1,0 +1,63 @@
+/* Card Flip */
+/* Container: Houses the 3D Space */
+/*
+#card acts as wrapper for 3D Object; two separate elements
+for both faces of the card
+*/
+
+.card-container {
+  width: 200px;
+  height: 260px;
+  position: relative;
+  -webkit-perspective: 800px;
+}
+
+/*
+the .container's perspective only applies to DIRECT descendant children
+in order for subsequen thilcdren to inherit parent's perspective and live in the same
+3D space, parent can pass alog its perspective with transform-style: preserve-3d
+without transform-style, the faces of the card would be flattened with its parents
+and the back face's rotation would be nullified
+*/
+
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  text-align: center;
+  line-height: 260px;
+  vertical-align: middle;
+  font-size: 50px;
+  color: white;
+
+
+  /*-webkit-transform-origin: right;*/
+}
+
+#card .front {
+  background: lightgrey;
+  opacity: 0.8;
+}
+
+#card .back {
+  background: blue;
+  opacity: 0.8;
+  /*transform: translateX(-100%) rotateY(-180deg);*/
+  transform: rotateY(180deg);
+}
+
+#card:hover {
+  transform: rotateY(180deg);
+  /*transform: translateX(-100%) rotateY(-180deg);*/
+}

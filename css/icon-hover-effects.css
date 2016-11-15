@@ -1,0 +1,154 @@
+.icon-container {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  -webkit-perspective: 300px;
+  background-color: transparent;
+}
+
+/* * * * * * * * R O T A T E * * * * * * * * */
+#heart-icon-rotate {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform .5s;
+}
+
+#heart-icon-rotate img {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#heart-icon-rotate:hover {
+  transform: rotateZ(25deg);
+}
+/* * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * F L O A T * * * * * * * * */
+#heart-icon-float {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform .5s;
+}
+
+#heart-icon-float img {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#heart-icon-float:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 10px -10px lightgrey;
+}
+/* * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * H A N G * * * * * * * * */
+#heart-icon-hang {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+#heart-icon-hang img {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#heart-icon-hang:hover {
+  transform: translateY(10px);
+}
+/* * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * *  W O B B L E * * * * * * * * */
+@keyframes mymove {
+    0%   {left: 0px;}
+    25%  {left: 5px;}
+    50% {left: 0px;}
+    75%  {left: 5px}
+    100% {left: 0px;}
+}
+
+#heart-icon-wobble {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+#heart-icon-wobble img {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#heart-icon-wobble:hover {
+  animation: mymove 1s infinite;
+}
+/* * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * *  G R O W * * * * * * * * */
+#heart-icon-grow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+#heart-icon-grow img {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#heart-icon-grow:hover {
+  transform: scale(1.2);
+}
+/* * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * *  P U S H * * * * * * * * */
+@keyframes mypush {
+    0%   {transform: scale(1);}
+    25%  {transform: scale(1.2);}
+    50% {transform: scale(1);}
+    75%  {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+#heart-icon-push {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+#heart-icon-push img {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#heart-icon-push:hover {
+  animation: mypush 0.75s;
+}
+/* * * * * * * * * * * * * * * * * * * * */
