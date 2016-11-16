@@ -1,3 +1,31 @@
 * {
   font-family: sans-serif;
 }
+
+.icon-section {
+  background-color: #42403e;
+}
+
+
+.animated-heart-icons {
+  display: flex;
+}
+
+#icon-hover-header {
+  color: white;
+
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cube-container {
+  margin: 30px;
+}
+
+.transition-effect-section {
+  margin: 30px;
+}
