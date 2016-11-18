@@ -1,3 +1,46 @@
+#icon-hover-header {
+  font-size: 45px;
+  padding-top: 50px;
+  color: #383838;
+}
+.all-icons-container {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  /*display: flex;*/
+  justify-content: space-between;
+  text-align: center;
+}
+
+.static-icon-example {
+  flex: left;
+}
+
+.static-icon-example img {
+  width: 50px;
+  height: 50px;
+}
+
+.animated-heart-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
+  /*display: flex;
+  justify-content: space-between;
+  flex: right;*/
+}
+
+.animated-heart-icons p {
+  width: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 50px;
+}
 .icon-container {
   width: 50px;
   height: 50px;
@@ -39,7 +82,7 @@
 
 #heart-icon-float img {
   margin: 0;
-  display: block;
+  display: inline-block;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -62,7 +105,7 @@
 
 #heart-icon-hang img {
   margin: 0;
-  display: block;
+  display: inline-block;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -113,7 +156,7 @@
 
 #heart-icon-grow img {
   margin: 0;
-  display: block;
+  display: inline-block;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -142,7 +185,7 @@
 
 #heart-icon-push img {
   margin: 0;
-  display: block;
+  display: inline-block;
   position: absolute;
   width: 100%;
   height: 100%;

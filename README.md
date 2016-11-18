@@ -18,8 +18,8 @@ With CSS Visual Cues, user will be able to compare/contrast:
   - [ ] Hover Effect
 - [ ] Transition Effects (2x)
   - [x] Flip
-  - [ ] Slide
-- [ ] 3D Cube
+  - [x] Slide
+- [x] 3D Cube
 
 ## Wireframes
 This will be a one-page web application. It contains nav links to different sections within the application itself as well as my own GitHub and LinkedIn accounts.

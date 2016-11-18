@@ -1,31 +1,100 @@
-* {
-  font-family: sans-serif;
+/* * * * * * * * C S S   R E S E T * * * * * * * * */
+
+html, body, div, section, figure, h1, h2, img ul, li, a, p{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font: inherit;
+  text-decoration: none;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #383838;
 }
 
-.icon-section {
-  background-color: #42403e;
+/* * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * H E A D E R * * * * * * * * */
+.header {
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  background-color: #383838;
+  text-align: center;
 }
 
-
-.animated-heart-icons {
-  display: flex;
-}
-
-#icon-hover-header {
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  /*font-weight: 800;*/
   color: white;
 
 }
 
-.icon-container {
-  margin-bottom: 20px;
-  margin-left: 10px;
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+
+}
+
+article {
+  color: white;
+  text-align: center;
+}
+
+.nav-bar {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 45%;
+}
+
+.nav-bar li {
+  color: white;
+}
+
+.nav-bar li a {
+  border-left: 2px transparent;
+  border-right: 2px transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.nav-bar li a::before, .nav-bar li a::after {
+  display: inline-block;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.nav-bar li a::before {
   margin-right: 10px;
+  content: '[ ';
+  -webkit-transform: translateX(15px);
 }
 
-.cube-container {
-  margin: 30px;
+
+.nav-bar li a::after {
+  margin-left: 10px;
+  content: ' ]';
+  -webkit-transform: translateX(-15px);
 }
 
-.transition-effect-section {
-  margin: 30px;
+.nav-bar li a:hover::before, .nav-bar li a:hover::after, .nav-bar li a:focus::before, .nav-bar li a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
 }
+
+/* * * * * * * * * * * * * * * * * * * * */

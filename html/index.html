@@ -6,22 +6,117 @@
     <link rel="stylesheet" href="../css/master.css" type="text/css">
     <link rel="stylesheet" href="../css/icon-hover-effects.css" type="text/css">
     <link rel="stylesheet" href="../css/transition-effects.css" type="text/css">
+    <link rel="stylesheet" href="../css/button-click-effects.css" type="text/css">
     <link rel="stylesheet" href="../css/3d-cube.css" type="text/css">
-    <script type="text/javascript" src="../javascript/script.js">
-
-    </script>
-    <!-- <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-12345678-9', 'auto');
-    ga('send', 'pageview');
-    </script> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <script type="text/javascript" src="../javascript/script.js"></script>
   </head>
 
 
   <body>
+    <div class="header">
+      <h1>CSS Visual Cues</h1>
+      <h2>"Good design is obvious. Great design is transparent."</h2>
+      <ul class="nav-bar">
+        <li><a href="#icons"/>Icons</a></li>
+        <li>•</li>
+        <li><a href="#buttons"/>Buttons</a></li>
+        <li>•</li>
+        <li><a href="#transitions"/>Transitions</a></li>
+        <li>•</li>
+        <li><a href="#three-d-cube"/>Bonus Functionality</a></li>
+      </ul>
+      <br />
+      <article>
+        The main focus of an application is most often its functionality. However, the design of an application is also extremely important for an ergonomic and intuitive user experience.
+        <p />
+        These short demos exemplify how CSS can significantly improve a user's experience.
+      </article>
+    </div>
+
+    <h2 id="icon-hover-header">Icon Hover Effects</h2>
+
+    <div class="all-icons-container">
+       <div class="static-icon-example">
+         <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="static-heart-icon" />
+         <p>Static</p>
+       </div>
+
+       <br />
+       <div class="animated-heart-icons">
+         <div class="icon-container">
+           <div id="heart-icon-rotate">
+             <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="heart-icon-rotate" />
+           </div>
+         </div>
+         <p>Rotate</p>
+
+         <div class="icon-container">
+           <div id="heart-icon-float">
+             <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="heart-icon-float" />
+           </div>
+         </div>
+         <p>Float</p>
+
+         <div class="icon-container">
+           <div id="heart-icon-hang">
+             <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="heart-icon-hang" />
+           </div>
+         </div>
+         <p>Hang</p>
+       </div>
+
+       <div class="animated-heart-icons">
+         <div class="icon-container">
+           <div id="heart-icon-wobble">
+             <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756528/unfilled-heart-icon_tcxcze.png" alt="heart-icon-wobble" />
+           </div>
+         </div>
+         <p>Wobble</p>
+
+         <div class="icon-container">
+           <div id="heart-icon-grow">
+             <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756528/unfilled-heart-icon_tcxcze.png" alt="heart-icon-grow" />
+           </div>
+         </div>
+         <p>Grow</p>
+
+         <div class="icon-container">
+           <div id="heart-icon-push">
+             <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756528/unfilled-heart-icon_tcxcze.png" alt="heart-icon-push" />
+           </div>
+         </div>
+         <p>Push</p>
+       </div>
+      </div>
+     </div>
+
+    <a name="buttons" />
+    <div class="button-click-effects">
+      <h2 id="button-click-header">Button Effects</h2>
+      <p> Buttons with hover and click styling greatfly increases a user's intuition. Hover effects convey the message that a button is clickable and wants to be clicked. Click effects convey the message that a button has indeed been clicked. </p>
+      <br/>
+
+        <div class="button-container">
+          <button class="static-button">Static Button</button>
+        </div>
+        <hr/>
+
+        <div class="button-container">
+          <button class="hover-button">
+            Hover Over Me!
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button class="press-button">
+            Click On Me!
+          </button>
+        </div>
+      </div>
+
+    <a name="transitions" />
     <div class="transition-effect-section">
       <section class="card-vertical-container">
         <div id="card-vertical">
@@ -38,68 +133,19 @@
       </section>
     </div>
 
-    <div class="button-click-effects">
-      <div class="button-container">
-        <div id="button-icon-click-wave">
-          <button>This is a Button</button>
-        </div>
+    <a name="three-d-cube" />
+    <div class="cube-container">
+      <div id="cube">
+        <figure class="front">1</figure>
+        <figure class="back">2</figure>
+        <figure class="right">3</figure>
+        <figure class="left">4</figure>
+        <figure class="top">5</figure>
+        <figure class="bottom">6</figure>
       </div>
     </div>
 
-      <h2 id="icon-hover-header">Icon Hover Effects</h2>
-      <div class="static-icon-example">
-        <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="static-heart-icon" />
-      </div>
-      <div class="animated-heart-icons">
-        <div class="icon-container">
-          <div id="heart-icon-rotate">
-            <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="heart-icon-rotate" />
-          </div>
-        </div>
 
-        <div class="icon-container">
-          <div id="heart-icon-float">
-            <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="heart-icon-float" />
-          </div>
-        </div>
-
-        <div class="icon-container">
-          <div id="heart-icon-hang">
-            <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756523/filled-heart-icon_umf3hi.png" alt="heart-icon-hang" />
-          </div>
-        </div>
-
-        <div class="icon-container">
-          <div id="heart-icon-wobble">
-            <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756528/unfilled-heart-icon_tcxcze.png" alt="heart-icon-wobble" />
-          </div>
-        </div>
-
-        <div class="icon-container">
-          <div id="heart-icon-grow">
-            <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756528/unfilled-heart-icon_tcxcze.png" alt="heart-icon-grow" />
-          </div>
-        </div>
-
-        <div class="icon-container">
-          <div id="heart-icon-push">
-            <img src="https://res.cloudinary.com/dfrrpfeus/image/upload/v1478756528/unfilled-heart-icon_tcxcze.png" alt="heart-icon-push" />
-          </div>
-        </div>
-      </div>
-
-      <div class="cube-container">
-        <div id="cube">
-          <figure class="front">1</figure>
-          <figure class="back">2</figure>
-          <figure class="right">3</figure>
-          <figure class="left">4</figure>
-          <figure class="top">5</figure>
-          <figure class="bottom">6</figure>
-        </div>
-      </div>
-
-        
   </body>
 
 </html>

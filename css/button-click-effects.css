@@ -1,0 +1,157 @@
+.button-click-effects {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+
+  /*justify-content: space-between;*/
+  background-color: #383838;
+  text-align: center;
+  /*display: flex;*/
+}
+
+.button-click-effects p {
+  color: white;
+  /*flex: left;*/
+  width: 50%;
+  margin: auto;
+}
+
+.button-examples {
+  /*flex: right;*/
+}
+.button-container {
+  width: 400px;
+  margin: auto;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #383838;
+}
+
+#button-click-header {
+  font-size: 45px;
+  padding-top: 50px;
+  color: white;
+}
+
+/* * * * * * S T A T I C   B U T T O N * * * * * * * */
+.static-button {
+  width: 80%;
+  margin-bottom: 15px;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * H O V E R   E F F E C T* * * * * * * */
+.hover-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #383838;
+
+  outline: 0;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #383838;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.hover-button:hover {
+  cursor: pointer;
+  background-color: #3e3e3e;
+  transition: 0.3s;
+  color: white;
+}
+
+.hover-button:active {
+  background-color: white;
+  transition: 0.3s;
+  color: #3e3e3e;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * P R E S S   E F F E C T  * * * * * * * */
+.press-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #383838;
+
+  outline: 0;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #383838;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 5px lightgrey;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.press-button:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  box-shadow: 0 5px #aaaaaa;
+  transition: 0.3s;
+}
+
+.press-button:active {
+  background-color: lightgrey;
+  color: white;
+  box-shadow: 0 2.5px #aaaaaa;
+  transform: translateY(2px);
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * P R E S S   E F F E C T  * * * * * * * */
+/*.ripple-button {
+  outline: 0;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #383838;
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ripple-button:after {
+    content: "";
+    background: lightgrey;
+    display: block;
+    position: absolute;
+    padding-top: 100%;
+    padding-left: 200%;
+    margin-left: -10px!important;
+    margin-top: -70%;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.ripple-button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 0.7;
+  transition: 0s;*/
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * */
