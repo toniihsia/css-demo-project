@@ -13,10 +13,10 @@ With CSS Visual Cues, user will be able to compare/contrast:
   - [x] Float
   - [x] Grow
   - [x] Push
-- [ ] Button Effects (2x)
-  - [ ] Pressed Effect
-  - [ ] Hover Effect
-- [ ] Transition Effects (2x)
+- [x] Button Effects (2x)
+  - [x] Pressed Effect
+  - [x] Hover Effect
+- [x] Transition Effects (2x)
   - [x] Flip
   - [x] Slide
 - [x] 3D Cube
