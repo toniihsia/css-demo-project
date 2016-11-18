@@ -51,12 +51,17 @@ article {
   text-align: center;
 }
 
+p {
+  color: #3e3e3e;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
 .nav-bar {
     text-decoration: none;
-    display: flex;
+
     justify-content: space-between;
     margin: auto;
-    width: 45%;
 }
 
 .nav-bar li {
