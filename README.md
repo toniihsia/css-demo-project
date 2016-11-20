@@ -1,66 +1,29 @@
 # CSS Visual Cues
-## Background
-Visual Cues emphasizes the importance of CSS styling for user interaction and experience.
+[Live Link][live-link]
+[live-link]: http://toniihsia.github.io
 
-The project will compare plain, un-styled elements with CSS styled elements to illustrate how visual cues can greatly enhance the ergonomics of a web service. The use of side-by-side visual demonstrations as well as a brief text descriptions of the effects each styled element has on a user will be the main feature of this application.
 
-## Functionality & MVP
-With CSS Visual Cues, user will be able to compare/contrast:
-- [x] Icon Hover Effects
-  - [x] Wobble
-  - [x] Rotate
-  - [X] Hang
-  - [x] Float
-  - [x] Grow
-  - [x] Push
-- [x] Button Effects (2x)
-  - [x] Pressed Effect
-  - [x] Hover Effect
-- [x] Transition Effects (2x)
-  - [x] Flip
-  - [x] Slide
-- [x] 3D Cube
+![Image of CSS Visual Cues](docs/production-pics/css-visual-cues.png)
+CSS Visual Cues is an interactive web application that features a number of intermediate and advanced CSS styles. The purpose of these CSS demos is to not only highlight the power of CSS, but also to highlight the importance of CSS in relation to UI/UX.
 
-## Wireframes
-This will be a one-page web application. It contains nav links to different sections within the application itself as well as my own GitHub and LinkedIn accounts.
+CSS Visual Cues uses HTML5 and pure CSS to create interactive effects.
 
-![Landing Page](wireframes/landing.png)
+## Features & Implementation
+### Icon Hover Effects
+![Image of Icon Hover](docs/production-pics/icon-effects.png)
+The Icon Hover Effect section of CSS Visual Cues focuses on icon animations. The icon animations were made using pure CSS manipulations of x-, y-, and z-planes. Custom animations were coded to transform and translate icon positions and sizes in order to create effects such as rotating, floating, hanging, wobbling, growing, and pushing.
 
-Each section of the web application will feature a different CSS styling technique. It will compare and contrast unstyled and styled elements to emphasize the impact styling can have on UI/UX. Some textual information on these effects will also be placed underneath each example.
+### Button Effects
+The Button Effects section of CSS Visual Cues focuses on CSS hover and click effects. The button effects were created using pure CSS manipulations of static and active buttons. Subtle changes include that of changing the cursor to a pointer when buttons are hovered over to signal its clickability. More dramatic changes include that of manipulating button size, hover, and active events. Translations on the y-axis created 3-D visual aids that signaled whether a button existed and/or was pushed or not.
 
-![Icon Hover Effects](wireframes/icon-hover-effects.png)
-![Button Effects](wireframes/button-click-effects.png)
-![Transition Effects](wireframes/transition-effects.png)
+### Transition Effects
+The Transition Effects section of CSS Visual Cues focuses on image transitions, mainly vertical and horizontal flips. A back and front face of an object were emulated through the use of two stacked `div`s which were manipulated using x- and y-plane rotations.
 
-After more practical examples of CSS styling, I will also include a section on the power of CSS which displays how one can use CSS to create and manipulate 3D Cubes.
-![3-D Cube][wireframes/3d-cube.png]
+### Bonus Features
+The Bonus Features section features a 3D Cube which expands upon hover. The 3D Cube and its expansion animation is made using pure CSS manipulations of x-, y-, and z-planes. Similarly to the objects used in Transition Effects, HTML `div`s are used to create sides. However, these HTML `div`s are merely stacked on top of each other and require not only rotations, but also translations.
 
-## Architecture and Technologies
-This project will be implemented with the following technologies:
-- HTML
-- CSS
+Each flat `div` is rotated in order to create front, back, top, bottom, right, and left faces. z-plane transformations push these planes out in order to create 3-D space. Custom animations were coded in order to further expand the cube's sides and display even more space.
 
-## Implementation Timeline
-**Day 1**: General set-up and learning of CSS. Begin working on icon hover effects.
-  - Set up file system and GitHub Pages.
-  - Learn about CSS x-, y-, and z-planes as well as their interactions.
-  - Create basic web-page structure.
-  - Start on Icon Hover Effects.
-
-**Day 2**: Finish up icon hover effects, brush up on CSS knowledge, and continue onto button effects. Start on transition effects.
-  - Finish Icon Hover Effects.
-  - Create Button effects.
-  - Brush up on x-, y-, and z-planes.
-  - Start Transition Effects using brushed up knowledge.
-
-**Day 3**: Finish up transition effects and begin 3D Cube.
-  - Finish Transition Effects.
-  - Begin 3D Cube.
-
-**Day 4**: Finish up 3D Cube.
-  - Dedicate entire day to 3D Cube.
-
-## Bonus Features
-- Add code snippets.
-- Add 3D parallelogram.
-- Add rotations.
+## Future Directions
+### More 3D Manipulation
+I would like to give more step=by-step examples of how 3-D space is achieved using CSS.
